@@ -1,0 +1,7 @@
+export {default as NavLinks} from "./NavLinks/NavLinks"
+export {default as Container} from "./Container/Container"
+export {default as MainBtn} from "./Buttons/Buttons"
+export {SecondaryBtn} from "./Buttons/Buttons"
+export {default as Title} from "./Title/Title"
+export {default as CourseCard} from "./CourseCard/CourseCard"
+export {default as TestimonalsCard} from "./TestimonalsCard/TestimonalsCard"

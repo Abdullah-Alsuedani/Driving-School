@@ -1,0 +1,43 @@
+.testimonals{
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    background-color: var(--background-color);
+}
+
+.testimonals .title{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.testimonals .owl-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.testimonals .owl-dots button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--green-color) !important;
+}
+
+.testimonals .owl-dots button.active{
+    background-color: var(--main-color) !important;
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+
+.testimonals .owl-dots button.active::after{
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}

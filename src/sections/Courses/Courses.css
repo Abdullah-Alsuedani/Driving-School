@@ -1,0 +1,15 @@
+.courses{
+    text-align: center;
+    background-color: var(--background-color);
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
