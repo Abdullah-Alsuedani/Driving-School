@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Driving-School/static/css/main.f05375b3.css",
+    "main.js": "/Driving-School/static/js/main.cc4bd42c.js",
+    "static/js/787.45585752.chunk.js": "/Driving-School/static/js/787.45585752.chunk.js",
+    "static/media/hero-section.png": "/Driving-School/static/media/hero-section.16783096409ff5cc5cf1.png",
+    "static/media/about.png": "/Driving-School/static/media/about.5ebf93565278e428eb26.png",
+    "static/media/course2.png": "/Driving-School/static/media/course2.a06958067490945f9fbf.png",
+    "static/media/features.png": "/Driving-School/static/media/features.e1539fc4b615ece7b01f.png",
+    "static/media/course1.png": "/Driving-School/static/media/course1.001bd0f4ba96bd61e525.png",
+    "static/media/course3.png": "/Driving-School/static/media/course3.526a112a58cb5cdce547.png",
+    "static/media/logo1.png": "/Driving-School/static/media/logo1.f27977404827401a0bc2.png",
+    "static/media/profile2.png": "/Driving-School/static/media/profile2.28fac502cd4183c7fe2c.png",
+    "static/media/profile1.png": "/Driving-School/static/media/profile1.c74dd79ba4373ecc0b3d.png",
+    "index.html": "/Driving-School/index.html",
+    "main.f05375b3.css.map": "/Driving-School/static/css/main.f05375b3.css.map",
+    "main.cc4bd42c.js.map": "/Driving-School/static/js/main.cc4bd42c.js.map",
+    "787.45585752.chunk.js.map": "/Driving-School/static/js/787.45585752.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f05375b3.css",
+    "static/js/main.cc4bd42c.js"
+  ]
+}
