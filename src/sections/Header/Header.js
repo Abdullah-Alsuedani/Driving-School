@@ -1,6 +1,6 @@
 import './Header.css'
 import logo from '../../assests/images/logo1.png'
-import { NavLinks, Container, MainBtn } from '../../components'
+import { Container, MainBtn } from '../../components'
 
 import { NavHashLink } from 'react-router-hash-link'
 import { NavLink } from 'react-router-dom'
