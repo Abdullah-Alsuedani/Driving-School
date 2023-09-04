@@ -18,7 +18,7 @@ const Courses = () => {
     })
 
     return(
-        <div className='courses'>
+        <div id='prices' className='courses'>
             <Container>
                 <Title sectionName="Trending Courses">
                     Our Courses Upskill You With Driving Training

@@ -34,7 +34,7 @@ const Testimonals = () =>{
 
 
     return(
-        <div className='testimonals'>
+        <div id='reviews' className='testimonals'>
             <Container>
                 <Title sectionName="Testimonals">
                   What Our Clients Say!

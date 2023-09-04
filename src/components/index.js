@@ -1,4 +1,3 @@
-export {default as NavLinks} from "./NavLinks/NavLinks"
 export {default as Container} from "./Container/Container"
 export {default as MainBtn} from "./Buttons/Buttons"
 export {SecondaryBtn} from "./Buttons/Buttons"

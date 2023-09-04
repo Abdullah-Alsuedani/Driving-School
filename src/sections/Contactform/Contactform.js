@@ -15,6 +15,8 @@ const form = () =>{
                 <h2>Start Your Drive Courses</h2>
                 <form>
                     <input type='text' placeholder='Your Name..'/>
+                    <input type='text' placeholder='Your Name..'/>
+                    <input type='text' placeholder='Your Name..'/>
                     <input type='email' placeholder='Your Email..'/>
                     <input type='phone' placeholder='Your phone..'/>
                     <select defaultValue='Choose Course...'>

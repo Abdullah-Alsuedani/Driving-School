@@ -2,6 +2,10 @@ import './Header.css'
 import logo from '../../assests/images/logo1.png'
 import { NavLinks, Container, MainBtn } from '../../components'
 
+import { NavHashLink } from 'react-router-hash-link'
+import { NavLink } from 'react-router-dom'
+
+
 const Header = () => {
     return(
     <nav className="header navbar navbar-expand-lg">
@@ -12,11 +16,12 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <NavLinks id="#home">Home</NavLinks>
-            <NavLinks id="#about">About</NavLinks>
-            <NavLinks id="#features">Features</NavLinks>
-            <NavLinks id="#prices">Prices</NavLinks>
-            <NavLinks id="#reviews">Reviews</NavLinks>
+            <li className='nav-item navLink'><NavHashLink is='active' to="/">Home</NavHashLink></li>
+            <li className='nav-item navLink'><NavHashLink is='' to="/#about">About</NavHashLink></li>
+            <li className='nav-item navLink'><NavHashLink is='' to="/#features">Features</NavHashLink></li>
+            <li className='nav-item navLink'><NavHashLink is='' to="/#prices">Prices</NavHashLink></li>
+            <li className='nav-item navLink'><NavHashLink is='' to="/#reviews">Reviews</NavHashLink></li>
+            <li className='nav-item navLink'><NavLink to="/Faqs">Show me Tell me</NavLink></li>
         </ul>
         <MainBtn link="#">Get Started</MainBtn>
         </div>

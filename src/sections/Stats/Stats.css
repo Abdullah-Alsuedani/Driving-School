@@ -1,0 +1,13 @@
+.stats{
+    background-color: var(--main-color);
+}
+
+.stats .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    color: var(--light-color);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    gap: 30px;
+}

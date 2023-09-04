@@ -1,20 +1,21 @@
 import './App.css';
-import {Header, Info, Contactform ,Hero, About, Courses, Features, Testimonals, FooterSection} from './sections/index'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
+
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
+import Home from './Pages/Home';
+import Faqs from './Pages/Faqs';
 
 function App() {
   return (
     <>
-      <Header/>
-      <Info/>
-      <Hero/>
-      <Contactform/>
-      <About/>
-      <Courses/>
-      <Features/>
-      <Testimonals/>
-      <FooterSection/>
+    <BrowserRouter basename='/Driving-School'>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Faqs' element={<Faqs/>}/>
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }
